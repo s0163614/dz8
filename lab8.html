@@ -1,0 +1,62 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Задание 8 Сироджов </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=TcdADJW9cnBunjYSoPN0PninumsXa8HrY1UFHJC2MGziVQ7HQ-DhITI1G24hGbFThg2jybwqQ7cz3RZnUzMRVw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://me.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9wb2x5YWtvdi5uLmdpdGxhYi5pby93ZWI4Lz9vcGVuRm9ybQ"/><script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<header>
+		<div class="header mb-3">Задание 8</div>
+	</header>
+		<div class="send" style="text-align: center;" >
+	<button type="button" onclick=" forward" id="formButton" data-toggle="modal" data-target="#popUp">Форма</button>
+	</div>
+		<div class="modal fade formStyle" id="popUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+                  <div class="modal-header">
+                    <div class="modal-title" id="exampleModalLabel">Форма</div>
+                  </div>
+                  <div class="modal-body">
+				  <div class="row d-flex flex-row justify-content-center">
+					<div class="col-sm-9">
+						<div class="items d-flex flex-column">
+
+                    <form class="ajaxForm" action="https://formcarry.com/s/Fcf9hcQ3KX" accept-charset="UTF-8" >
+						<div>
+					 <label for="nick" class="col-form-label">Имя:</label>
+					 <input id="nick" type="text" name="firstName">
+					</div>
+						<div>
+					 <label for="email" class="col-form-label">email: </label>
+					 <input id="email" type="email" name="email">
+					</div>
+						<div>
+					 <label for="anotherInput" class="col-form-label">Сообщение:</label>
+					 <textarea id="anotherInput" class="form-control" name="anotherInput" ></textarea>
+					</div>
+						<div class="row d-flex flex-row align-items-center justify-content-around"></div>
+                        <div class="col-2 check">
+							<input type="checkbox" class="form-control" id="check" required></div>
+                        <div class="col col-md-10">
+						<label for="check" class="col-form-label">Согласие на обработку персональных данных</label></div>
+					  <div class="modal-footer">
+                        <button type="submit">Отправить</button>
+						<button type="button" id="closeButton" data-dismiss="modal" onclick="GoBack()" data-target="#popUp">Назад</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="README.js"></script>
+</body>
+</html>
